@@ -1,0 +1,53 @@
+# Environment variables
+.env
+.env.local
+.env.production
+*.env
+
+# Dependencies
+node_modules/
+__pycache__/
+
+# Build outputs
+build/
+dist/
+
+# Logs
+*.log
+server.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Database
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Python cache
+*.pyc
+__pycache__/
+
+# MongoDB data
+data/
+
+# Test files
+test_result.md
+backend_test.py
+
+# Development files
+videos.json
+crear_proyecto.py
+netlify.toml 
